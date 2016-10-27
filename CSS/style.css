@@ -1,3 +1,20 @@
 *{
 	border: 1px solid aqua;
 }
+.intro header h1{
+
+	font-size: 50px
+
+}
+/*primero defino stulos generales y dsps especificos sans serif es un tipo de tipografia normal
+y hay otra mas ordenada para titulos podemos usar google font para buscar que tipogafia me gusta*/
+body{
+	font-family: arial, sans-serif;
+	font size: 13px;
+	background-image: url(C:\AQP-20162067\PROJECT\Ejercicio-Zen-Garden\IMAGES)
+
+}
+h2,h3,h4{
+	font-family: 'Trirong' serif ;
+
+}
