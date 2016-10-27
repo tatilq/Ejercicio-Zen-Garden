@@ -1,4 +1,4 @@
-
+/*
 
 
 
@@ -158,4 +158,465 @@ padding : 5%;
 div.requirements {
 background : rgba(255, 255, 255, 0.9);
 padding : 5%;
+}
+*/
+
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, a, abbr, acronym, em, img, ol, ul, li {
+border : 0;
+font-weight : inherit;
+font-style : inherit;
+font-size : 100%;
+font-family : inherit;
+vertical-align : baseline;
+margin : 0;
+padding : 0;
+}
+* {
+box-sizing : border-box;
+}
+html {
+overflow-y : auto;
+background : #faf3e6;
+background-size : 22em;
+}
+body {
+font : 112.5%/1.3 "ltc-bodoni-175", serif;
+color : #3f3d3a;
+overflow : hidden;
+}
+body:before, body:after {
+content : '';
+display : block;
+width : 0;
+height : 0;
+}
+body:before {
+border-left : 45px solid #faf3e6;
+border-right : 45px solid #faf3e6;
+border-top : 45px solid transparent;
+background : url('img-halftone.png') repeat #f7644d;
+margin : 0 auto -45px;
+}
+body:after {
+border-left : 7em solid #faf3e6;
+border-right : 7em solid #faf3e6;
+border-bottom : 10em solid transparent;
+background : url('img-halftone.png') repeat #ffb14d;
+margin : -10em auto 0;
+}
+.page-wrapper {
+width : 100%;
+margin : 0.25em auto;
+max-width : 1800px;
+position : relative;
+padding : 0 4%;
+}
+.page-wrapper:before {
+content : "";
+height : 20px;
+background : url('img-lg-horiz-border.png') 0 -2px repeat-x;
+background-size : 40em;
+display : block;
+}
+.page-wrapper:after {
+content : "";
+display : table;
+clear : both;
+}
+h1, h2, h3, h4, h5 {
+text-align : center;
+color : #272625;
+text-transform : uppercase;
+}
+a {
+color : #e5452c;
+}
+a:hover, a:focus {
+color : #3f3d3a;
+}
+p {
+margin-bottom : 0.15em;
+}
+.intro {
+clear : both;
+padding-top : 2em;
+}
+.intro p {
+margin : 0 auto 1em;
+}
+.summary p:nth-child(2) {
+font-style : italic;
+}
+.summary a {
+display : inline-block;
+}
+.intro h1 {
+font-size : 3em;
+line-height : 1;
+font-weight : 400;
+font-style : italic;
+letter-spacing : 0.05em;
+text-transform : capitalize;
+}
+.intro h1:before {
+content : "Dr. Shea\2019s Miraculous";
+font-family : "refrigerator-deluxe", sans-serif;
+font-style : normal;
+text-transform : uppercase;
+display : block;
+font-size : 1.12rem;
+letter-spacing : 0.1rem;
+font-weight : 700;
+background : url('img-sprite.png') center 0.25em no-repeat;
+background-size : 25rem;
+margin-bottom : 1.3em;
+}
+.intro h2 {
+font-family : "french-clarendon-ornamented", sans-serif;
+font-size : 2.25em;
+font-weight : 400;
+padding-top : 4.5em;
+margin-top : 0.1em;
+margin-bottom : 0;
+letter-spacing : 0.05rem;
+line-height : 1.275em;
+background : url('img-bottle.png') center 0.75em no-repeat;
+background-size : 1.45em;
+}
+.preamble {
+margin : 0 auto 1em;
+}
+.preamble p {
+margin-bottom : 0.15em;
+}
+.preamble h3 {
+margin : 0.5em auto 0.55em;
+padding : 0.5em 0 0.55em;
+font-family : "grecian-light-face", sans-serif;
+font-size : 1.5em;
+line-height : 1;
+background : url('img-lg-horiz-border.png') top right repeat-x, url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 13em;
+}
+.preamble p:first-line {
+text-transform : uppercase;
+}
+.preamble p:nth-child(1n 3) {
+text-indent : 1.5em;
+}
+.preamble p:nth-child(1n 3):first-line {
+text-transform : none;
+}
+.design-selection h3 {
+font-family : "refrigerator-deluxe", sans-serif;
+font-size : 2em;
+letter-spacing : 0.05em;
+padding : 0.5em 0;
+margin : 0.35em auto 0.75em;
+background : url('img-lg-horiz-border.png') top right repeat-x, url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 15em;
+line-height : 1;
+}
+.design-selection {
+margin : 0 auto;
+}
+.design-selection ul {
+list-style-type : none;
+padding : 0;
+overflow-x : hidden;
+}
+.design-selection li {
+color : transparent;
+margin-bottom : 0.28em;
+clear : both;
+}
+.design-selection li a {
+text-decoration : none;
+color : #3f3d3a;
+}
+.sidebar a:hover, sidebar a:focus {
+color : #e5452c;
+}
+.design-name {
+font-style : italic;
+background : #faf3e6;
+padding-right : 0.25em;
+}
+.design-name:after {
+float : left;
+width : 0;
+white-space : nowrap;
+color : #3f3d3a;
+content : ".....................................................................................................................";
+}
+.designer-name {
+float : right;
+font-family : "refrigerator-deluxe", sans-serif;
+font-size : 1em;
+text-transform : uppercase;
+background : #faf3e6;
+padding-left : 0.25em;
+}
+h3.archives, h3.resources {
+display : none;
+}
+.design-archives {
+margin : 0.8em auto;
+position : relative;
+}
+.design-archives ul {
+list-style-type : none;
+background : url('img-lg-horiz-border.png') top right repeat-x, url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 36em;
+padding : 1.25em 0;
+}
+.design-archives .viewall {
+text-align : center;
+text-transform : uppercase;
+font-style : italic;
+letter-spacing : 0.02em;
+font-size : 1.125em;
+}
+.design-archives .previous a, .design-archives .next a {
+position : absolute;
+overflow : hidden;
+width : 2em;
+height : 1.25em;
+color : #3f3d3a;
+text-decoration : none;
+white-space : nowrap;
+text-indent : -9999px;
+transition : margin 0.1s ease-out;
+}
+.design-archives .next a:hover, .design-archives .next a:focus {
+margin-right : -4px;
+}
+.design-archives .previous a:hover, .design-archives .previous a:focus {
+margin-left : -4px;
+}
+.viewall a, .zen-resources a {
+color : #3f3d3a;
+text-decoration : none;
+}
+.design-archives .next a {
+right : 0;
+background : url('img-sprite.png') bottom right no-repeat;
+background-size : 20em;
+}
+.design-archives .previous a {
+left : 0;
+background : url('img-sprite.png') bottom left no-repeat;
+background-size : 20em;
+}
+.sidebar .wrapper {
+background : url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 40em;
+margin : 0 2px -1px;
+}
+.zen-resources {
+background : url('img-pointer-guy-sm.png') 28% 95% no-repeat;
+background-size : 5em;
+overflow : hidden;
+}
+.zen-resources:after, .zen-resources ul:after {
+width : 9em;
+height : 9em;
+content : '';
+margin : 0 auto;
+display : block;
+z-index : -1;
+position : relative;
+}
+.zen-resources:after {
+margin-top : 9em;
+background : url('img-halftone.png') repeat #ffb14d;
+transform : rotate(45deg), translateY(5.25em), translateX(2.75em);
+}
+.zen-resources ul:after {
+margin-top : 3.5em;
+background : url('img-halftone.png') repeat #bad1c2;
+transform : rotate(45deg), translateY(0.2em), translateX(3em);
+margin-bottom : -21.5em;
+}
+.zen-resources ul {
+list-style-type : none;
+margin : 0 auto;
+font-family : "refrigerator-deluxe", sans-serif;
+text-transform : uppercase;
+text-align : center;
+}
+.zen-resources li {
+display : block;
+text-align : center;
+line-height : 1.6;
+}
+.explanation {
+padding : 1.75em 0 0;
+margin : 0 auto;
+position : relative;
+background : #faf3e6;
+}
+.explanation p:first-line, .participation p:first-line, .benefits p:first-line {
+text-transform : uppercase;
+}
+.explanation p:nth-child(1n 3):first-line, .participation p:nth-child(1n 3):first-line, .benefits p:nth-child(1n 3):first-line {
+text-transform : none;
+}
+.explanation h3 {
+font-size : 2.15em;
+padding-bottom : 1.75rem;
+font-style : italic;
+letter-spacing : 0.03em;
+text-align : center;
+width : 100%;
+}
+.explanation p:nth-child(1n 3) {
+text-indent : 1.5em;
+}
+.participation {
+padding : 1.5em 0 0.5em;
+background : url('img-lg-horiz-border.png') top left repeat-x;
+background-size : 40em;
+margin : 3em 2px 0;
+}
+.participation h3 {
+font-family : "refrigerator-deluxe", sans-serif;
+font-size : 2.5em;
+letter-spacing : 0.025em;
+padding-bottom : 1rem;
+background : url('img-sprite.png') center center no-repeat;
+background-size : 9em;
+}
+.participation p {
+margin : 0 auto;
+}
+.participation p:nth-child(2) {
+background : url('img-lg-horiz-border.png') top left repeat-x;
+background-size : 44em;
+padding-top : 2em;
+}
+.participation p:nth-child(1n 3) {
+text-indent : 1.5em;
+}
+.benefits {
+padding : 1em 0 20em;
+margin : 0 2px;
+background : url('img-lg-horiz-border.png') bottom center repeat-x;
+background-size : 45em;
+position : relative;
+}
+.benefits p:last-child {
+background : url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 44em;
+padding-bottom : 1em;
+}
+.benefits h3 {
+margin : 0 auto 0.5em;
+font-family : "grecian-light-face", sans-serif;
+font-size : 2.65em;
+background : url('img-lg-horiz-border.png') top center repeat-x, url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 12em;
+padding : 0.25em 0;
+}
+.benefits p {
+margin : 0 auto;
+}
+.benefits:before {
+content : 'Apply Liberally';
+font-size : 3em;
+position : absolute;
+bottom : 3.5rem;
+text-align : center;
+width : 100%;
+font-family : "french-clarendon-ornamented", sans-serif;
+text-transform : uppercase;
+padding-bottom : 14.35rem;
+letter-spacing : 0.03em;
+}
+.benefits:after {
+content : 'And Regularly!';
+font-size : 3em;
+position : absolute;
+bottom : -13rem;
+text-align : center;
+width : 100%;
+font-family : "french-clarendon-ornamented", sans-serif;
+text-transform : uppercase;
+padding-bottom : 14.35rem;
+letter-spacing : 0.03em;
+}
+.benefits p:after {
+content : '';
+display : block;
+width : 100%;
+height : 26em;
+margin : 0 auto -26em;
+padding-bottom : 2em;
+background : url('img-look-right-sm.png') center 7.75rem no-repeat;
+background-size : 8.5rem;
+}
+.requirements h3 {
+font-family : "refrigerator-deluxe", sans-serif;
+font-size : 2.75em;
+letter-spacing : 0.025em;
+margin-bottom : 0.725em;
+position : absolute;
+top : 0.1em;
+text-align : center;
+display : block;
+padding-bottom : 1rem;
+width : 100%;
+background : url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 16em;
+}
+.requirements {
+padding : 6.5em 0 2em;
+margin : 0 auto 4.15em;
+position : relative;
+background : url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 46em;
+}
+.requirements p:nth-child(1n 3) {
+text-indent : 1.5em;
+}
+.requirements p:last-child {
+font-style : italic;
+position : absolute;
+left : 0;
+bottom : -2em;
+margin-bottom : -2.75em;
+text-align : center;
+width : 100%;
+text-indent : 0;
+}
+footer:after {
+content : '';
+display : block;
+width : 100%;
+height : 15em;
+margin : 0 auto -13.5em;
+background : url('img-lookup.png') center center no-repeat;
+background-size : 10em;
+}
+footer {
+background : url('img-lg-horiz-border.png') bottom left repeat-x;
+background-size : 40em;
+margin : 5.5em 1px -1px;
+text-align : center;
+font-family : "refrigerator-deluxe", sans-serif;
+font-size : 1.15em;
+text-transform : uppercase;
+text-align : center;
+padding-bottom : 8.5em;
+}
+footer a {
+text-decoration : none;
+background : #272625;
+padding : 0.15rem 0.5rem;
+color : #faf3e6;
+margin : 0 0.15em;
+letter-spacing : 0.05em;
+}
+footer a:hover, footer a:focus {
+background-color : #e5452c;
 }
