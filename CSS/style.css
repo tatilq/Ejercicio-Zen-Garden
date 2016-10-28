@@ -1,23 +1,4 @@
-/**{
-	border: 1px solid aqua;
-}
-.intro header h1{
 
-	font-size: 50px
-
-}
-primero defino stulos generales y dsps especificos sans serif es un tipo de tipografia normal
-y hay otra mas ordenada para titulos podemos usar google font para buscar que tipogafia me gusta
-body{
-	font-family: arial, sans-serif;
-	font size: 13px;
-	background-image: url(C:\AQP-20162067\PROJECT\Ejercicio-Zen-Garden\IMAGES)
-
-}
-h2,h3,h4{
-	font-family: 'Trirong' serif ;
-
-}*/
 *
 {
 
@@ -26,8 +7,6 @@ h2,h3,h4{
 body
 {
 	font-family: 'Pacifico', cursive;
-	/*background:#000 url(http://cdn2.thetechhacker.com/wp-content/uploads/2014/11/6.jpg) 
-	background:#000 url(https://chuszoof.files.wordpress.com/2014/11/cvet-ugol-obem-linii.jpg)*/
 	background:  #000 url(https://s-media-cache-ak0.pinimg.com/originals/0f/36/7d/0f367d6db630ee429e6473c77756fcd0.jpg)
 	no-repeat fixed center center;
 	-webkit-background-size: cover; 
@@ -42,7 +21,7 @@ h1,h2, h3, h4
 	font-family: 'Pacifico', cursive;
 	transition: all 10s;
 	margin-top: 0;
-	color: #1A7761;
+	color: #0F513E;
 }
 
 h1
@@ -72,12 +51,12 @@ section
 }
 header
 {
-	text-align: center;
-	margin: 60px 0;
-	animation-name: Zen-Garden;
-    animation-duration: 3s;
-    animation-direction: normal/* la animación se ejecutará hacia detrás. Si se repite, cuando vuelve a empezar parte de la situación inicial.*/;
-    animation-delay: 1s;/*ndica el tiempo en segundos (s) o milisegundos (ms) que debe retrasarse el inicio de la animación respecto a lo que sería el momento normal para el comienzo*/
+   text-align: center;
+   margin: 60px 0;
+   animation-name: Zen-Garden;
+   animation-duration: 3s;
+   animation-direction: normal/* la animación se ejecutará hacia detrás. Si se repite, cuando vuelve a empezar parte de la situación inicial.*/;
+   animation-delay: 1s;/*ndica el tiempo en segundos (s) o milisegundos (ms) que debe retrasarse el inicio de la animación respecto a lo que sería el momento normal para el comienzo*/
    animation-iteration-count: infinite;
    /* animation: Zen-Garden 5s 2 alternate linear forwards; */
 }
@@ -87,6 +66,7 @@ header h1
 	margin: 0;
 	line-height: 1em;
 }
+
 header h2
 {
 	color: #049C8A; 
@@ -107,83 +87,34 @@ header h2
     width: 100%;
   }
 }
-/*
-hr{display:none;}
-
-ul.menuVert1 {width: 220px; list-style: none;
- text-align: center; text-shadow: 2px 2px 4px red; padding:0;}
-
-ul.menuVert1 li {padding: 10px 0px; border: groove blue;
-border-width: 6px 6px 0px 6px; background-color: #F7FE2E;}
-
-ul.menuVert1 li:last-child { border-bottom: groove blue; border-bottom-width: 6px;}
-ul.menuVert1 li a:link, ul.menuVert1 li a:visited { text-decoration: none; color:black;}
-ul.menuVert1 li:hover {background-color: #FFD700;}
-*/
-/* Intro */
-aside
-{
-	position: fixed;
-	color: #F49696;
-	top: 8px;
-	width: 310px;
-	left: 8px;
-	top:0;
-}
-
-aside .wrapper h3
-{
-	font-size: 18px;
-	position: absolute;
-	transform: rotate(90deg);
-	right: 0;
-	width: 130px;
-	overflow: visible;
-	margin: 50px -50px 0 0;
-}
-/*marco a la izquierda*/
-aside .wrapper>div
-{
-	padding: 1px;
-	transition: all .8s;
-	min-height: 100px;
-	border-radius: 5px;
-	position: relative;
-	background: rgba(10,100,100,0.8);
-	margin-top: 2px;
-	transform: translateX(-280px);
-}
-aside .wrapper>div:hover
-{
-	transform: translateX(0);
-}
 
 aside ul
 {
 	margin:0 10px 0 0;
 	padding: 0;
 	list-style: none;
+	background:   rgba(0,0,0,0.4 );
 }
 aside ul li
 {
-	padding: 5px 5px;
-	border-radius: 5px;
+	padding: 6px 6px;
+	border-radius: 6px;
 	transition: all .4s;
 }
 aside ul li:hover
 {
-	background: rgba(100,100,100,0.9);/*color por donde pasa el mouse en la lista*/
-	color: #09350F;
-	transform: scale(0.8);/*cuando pasa el mouse se hace pequeño*/
+	background: rgba(27,211,211,0.9);/*color por donde pasa el mouse en la lista*/
+	color: black;
+	transform: scale(0.9);s/*cuando pasa el mouse se hace pequeño*/
 }
  a
 {
-	color: #EA1A71;
+	color: #7C1D5E;
 	text-decoration: none;
 }
 a:hover
 {
-	color:#F2B7CD;
+	color:#00000;
 }
 
 
@@ -194,6 +125,10 @@ a:hover
 	padding-top: 30px;
 }
 
+
+
+/*Transaaciones*/
+
 .preamble
 {
 	background: rgba(120,100,100,0.5);
@@ -202,9 +137,36 @@ a:hover
 	color: #333;
 	box-shadow: 0 5px 40px rgba(0,0,0,0.4);
 }
+
+
 .preamble h3
 {
 	color: #23524C;
+}
+
+
+.preamble
+{
+	text-align: left;
+	margin: 60px 0;
+	animation-name: Zen-Garden;
+    animation-duration: 3s;
+    animation-direction: normal/* la animación se ejecutará hacia detrás. Si se repite, cuando vuelve a empezar parte de la situación inicial.*/;
+    animation-delay: 1s;/*ndica el tiempo en segundos (s) o milisegundos (ms) que debe retrasarse el inicio de la animación respecto a lo que sería el momento normal para el comienzo*/
+   animation-iteration-count: 1;
+   /* animation: Zen-Garden 5s 2 alternate linear forwards; */
+}
+
+.mainsupporting
+{
+	text-align: left;
+	margin: 60px 0;
+	animation-name: Zen-Garden;
+    animation-duration: 3s;
+    animation-direction: normal/* la animación se ejecutará hacia detrás. Si se repite, cuando vuelve a empezar parte de la situación inicial.*/;
+    animation-delay: 1s;/*ndica el tiempo en segundos (s) o milisegundos (ms) que debe retrasarse el inicio de la animación respecto a lo que sería el momento normal para el comienzo*/
+   animation-iteration-count: 1;
+   /* animation: Zen-Garden 5s 2 alternate linear forwards; */
 }
 
 .mainsupporting{
@@ -219,6 +181,17 @@ a:hover
 	color: #23524C;
 }
 
+.summary
+{
+	text-align: left;
+	margin: 60px 0;
+	animation-name: Zen-Garden;
+    animation-duration: 3s;
+    animation-direction: normal/* la animación se ejecutará hacia detrás. Si se repite, cuando vuelve a empezar parte de la situación inicial.*/;
+    animation-delay: 1s;/*ndica el tiempo en segundos (s) o milisegundos (ms) que debe retrasarse el inicio de la animación respecto a lo que sería el momento normal para el comienzo*/
+   animation-iteration-count: 1;
+   /* animation: Zen-Garden 5s 2 alternate linear forwards; */
+}
 .summary
 {
 	background: rgba(120,100,100,0.5);
