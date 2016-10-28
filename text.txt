@@ -1,0 +1,93 @@
+hover
+focus
+actuve
+visite
+
+seudoselectores
+
+posicion en una lista
+
+elementos del mismo tipo debajo de un elemento padre
+
+:first-child
+:last-child
+
+imporgtante para hacer un menu
+
+.menu
+{
+list-style: none ; //le quito los puntos
+padding 0;
+
+}
+.menu l1{ especificidad
+border-botoom  1px solid  #CCC
+
+}
+
+.menu  li:last-child //eligo todo dentro de menu pero solo al ultimo hiujo
+{
+border none;
+}
+
+por temas de rendimiento no usar selectores demasiado largos
+
+-----------------------------ANIMACION---------------------------------------------------
+after slecciona l posicion donde se relejan los estilos
+content contenio del elemento
+
+Probar e investigar
+
+menu  li:after  (solo funciona con content)
+{
+clear: both;
+cntent :"x" se usa para separar los elementos
+
+
+}
+.foto{
+
+position relative es para el totate x 
+}
+
+@keyfrom zoom
+{
+
+0% {heught : 10 px
+transfom: scale (d 0  a 1) rotatex(45dg)
+}; inciio de animacion
+50% {height: 200px};
+100 % {height: 30px}  final d ela animacion
+
+}
+
+acelaracin x hadware usa transforms
+puedo combinar las rotaiones en 3 ejes
+
+
+.contenedor{
+perspective 0 px;// un valor mas pequeno es mas profunda valores altos son mas suaves
+
+
+}
+
+el el keyframes
+
+0%{//background-position  200 px; 
+}
+
+
+que hace el estilo position y el float 
+display
+(dedicar mucho tiempo a esto)
+
+
+
+
+
+
+
+
+
+
+
