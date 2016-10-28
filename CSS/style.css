@@ -107,15 +107,27 @@ header h2
     width: 100%;
   }
 }
+/*
+hr{display:none;}
 
+ul.menuVert1 {width: 220px; list-style: none;
+ text-align: center; text-shadow: 2px 2px 4px red; padding:0;}
+
+ul.menuVert1 li {padding: 10px 0px; border: groove blue;
+border-width: 6px 6px 0px 6px; background-color: #F7FE2E;}
+
+ul.menuVert1 li:last-child { border-bottom: groove blue; border-bottom-width: 6px;}
+ul.menuVert1 li a:link, ul.menuVert1 li a:visited { text-decoration: none; color:black;}
+ul.menuVert1 li:hover {background-color: #FFD700;}
+*/
 /* Intro */
 aside
 {
 	position: fixed;
-	color: #FFF;
-	top: 10px;
-	width: 300px;
-	left: 10px;
+	color: #F49696;
+	top: 8px;
+	width: 310px;
+	left: 8px;
 	top:0;
 }
 
@@ -129,16 +141,16 @@ aside .wrapper h3
 	overflow: visible;
 	margin: 50px -50px 0 0;
 }
-
+/*marco a la izquierda*/
 aside .wrapper>div
 {
-	padding: 10px;
-	transition: all .5s;
+	padding: 1px;
+	transition: all .8s;
 	min-height: 100px;
 	border-radius: 5px;
 	position: relative;
-	background: rgba(0,0,0,0.6);
-	margin-top: 10px;
+	background: rgba(10,100,100,0.8);
+	margin-top: 2px;
 	transform: translateX(-280px);
 }
 aside .wrapper>div:hover
@@ -148,7 +160,7 @@ aside .wrapper>div:hover
 
 aside ul
 {
-	margin:0 20px 0 0;
+	margin:0 10px 0 0;
 	padding: 0;
 	list-style: none;
 }
@@ -160,18 +172,18 @@ aside ul li
 }
 aside ul li:hover
 {
-	background: rgba(0,0,0,0.9);
-	color: #FFF;
-	transform: scale(1.1);
+	background: rgba(100,100,100,0.9);/*color por donde pasa el mouse en la lista*/
+	color: #09350F;
+	transform: scale(0.8);/*cuando pasa el mouse se hace pequeño*/
 }
  a
 {
-	color: #45CCCC;
+	color: #EA1A71;
 	text-decoration: none;
 }
 a:hover
 {
-	color:#88EEEE;
+	color:#F2B7CD;
 }
 
 
@@ -204,7 +216,7 @@ a:hover
 }
 .mainsupporting h3{
 
-	/*color: #23524C;*/
+	color: #23524C;
 }
 
 .summary
