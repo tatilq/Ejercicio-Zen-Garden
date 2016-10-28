@@ -63,7 +63,7 @@ h1
 h3
 {
    text-align: left;
-   margin: 0px 0px;
+   margin: 0px;
    animation-name: Zen-Garden;
    animation-duration: 3s;
    animation-direction: normal/* la animación se ejecutará hacia detrás. Si se repite, cuando vuelve a empezar parte de la situación inicial.*/;
